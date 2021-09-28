@@ -6,6 +6,8 @@ const StyledContainer = styled.div`
   background-image: url(${(props) => props.background});   
   width: 100%;
   height: 100vh;
+  max-height: 1100px;
+  min-height: 1100px;
   max-width: none;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,7 +18,6 @@ const StyledContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 `
 
 const Container = ({ background, children }) => {

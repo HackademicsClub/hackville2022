@@ -15,6 +15,11 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
     font-family: 'Open Sans', sans-serif;
   }
+  
+  html {
+    height: 100%;
+  }
+
 `
 
 // markup
@@ -31,7 +36,7 @@ const IndexPage = () => {
       <Header/>
       <main>
         <Register/>
-        {/* <Participate/> */}
+        <Participate/>
       </main>
     </>
 
