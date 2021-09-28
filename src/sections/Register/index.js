@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../../components/Container';
+import Section from '../../components/Section';
 import Window from '../../components/Window';
 import ApplyButton from '../../components/Button'
 import { ButtonGroup } from '../../components/Button/styles';
@@ -45,7 +45,7 @@ const Contents = styled.div`
 
 const Register = () => {
   return (
-    <Container background={YellowBackground}>
+    <Section background={YellowBackground}>
       <Contents>
         <LogoContainer>
           <Hackademics src={HackademicsLogo}/>
@@ -62,7 +62,7 @@ const Register = () => {
           </ButtonGroup>
         </Window>
       </Contents>
-    </Container>
+    </Section>
   )
 }
 

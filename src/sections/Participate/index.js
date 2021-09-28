@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Container from '../../components/Container';
+import Section from '../../components/Section';
 import ParticipateCard from '../../components/ParticipateCard';
 import Timeline from '../../components/Timeline';
 import Window from '../../components/Window';
@@ -35,7 +35,7 @@ const ParticipateContainer = styled.div`
 
 
 const Participate = () => (
-  <Container background={PinkBackground}>
+  <Section background={PinkBackground}>
     <Window title="‎‎‎Window" >
       <ParticipateIcon src={ParticipateImage}/>
       <WhyParticipateText>
@@ -53,7 +53,7 @@ const Participate = () => (
         <Timeline/>
       </WindowContents>
     </Window>
-  </Container>
+  </Section>
 )
 
 export default Participate;

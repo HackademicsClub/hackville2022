@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import YellowBackground from '../../images/backgrounds/bg-yellow.png'
 
-const StyledContainer = styled.div`
+const StyledSection = styled.section`
   background-image: url(${(props) => props.background});   
   width: 100%;
   height: 100vh;
@@ -20,12 +20,12 @@ const StyledContainer = styled.div`
   justify-content: center;
 `
 
-const Container = ({ background, children }) => {
+const Section = ({ background, children }) => {
   return (
-    <StyledContainer background={background}>
+    <StyledSection background={background}>
       { children }
-    </StyledContainer>
+    </StyledSection>
   )
 }
 
-export default Container;
+export default Section;

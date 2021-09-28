@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 import { Helmet } from 'react-helmet';
 import Header from '../components/Header';
 
@@ -22,6 +22,15 @@ const GlobalStyle = createGlobalStyle`
 
 `
 
+// const PageWrapper = styled.div`
+//   position: relative;
+//   z-index: 0;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+// `
+
+
 // markup
 const IndexPage = () => {
   return (
@@ -34,10 +43,8 @@ const IndexPage = () => {
       </Helmet>
       <GlobalStyle></GlobalStyle>
       <Header/>
-      <main>
-        <Register/>
-        <Participate/>
-      </main>
+      <Register/>
+      <Participate/>
     </>
 
   )
