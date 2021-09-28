@@ -5,7 +5,7 @@ import { WindowContainer, WindowHeader, WindowTitle, WindowDot, WindowContent, D
 
 const Window = (props) => {
   return (
-    <WindowContainer>
+    <WindowContainer width={props.width} height={props.height}>
       <WindowHeader>
         <DotsContainer>
           <WindowDot style={{backgroundColor: 'black'}}/>

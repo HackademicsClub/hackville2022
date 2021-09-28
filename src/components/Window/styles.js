@@ -8,6 +8,10 @@ export const WindowContainer = styled.div`
   border-radius: 6px;
   box-shadow: 2px 0px 0px black;
   background-color: white;
+
+  width: ${props => props.width ? props.width : ''};
+  height: ${props => props.height ? props.height : ''};
+  max-width: 1276px;
 `
 
 export const WindowHeader = styled.div`

@@ -31,6 +31,16 @@ const Contents = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
+
+  margin-top: -12em;
+
+  @media (max-width: 767px) and (min-width: 477px) {
+    margin-top: -18em;
+  }
+
+  @media only screen and (max-width: 478px) {
+    margin-top: -30em;
+  }
 `
 
 const Register = () => {
