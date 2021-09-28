@@ -7,9 +7,6 @@ import Header from '../components/Header';
 import Register from '../sections/Register';
 import Participate from '../sections/Participate';
 
-// Assets
-import YellowBackground from '../images/backgrounds/bg-yellow.png';
-
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -34,7 +31,7 @@ const IndexPage = () => {
       <Header/>
       <main>
         <Register/>
-        <Participate/>
+        {/* <Participate/> */}
       </main>
     </>
 

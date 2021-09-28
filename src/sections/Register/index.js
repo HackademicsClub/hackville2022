@@ -6,6 +6,7 @@ import { ButtonGroup } from '../../components/Button/styles';
 import { SponsorText, DateText, PresentText, LogoContainer, Hackademics, Hackville } from './styles';
 
 // Assets
+import YellowBackground from '../../images/backgrounds/bg-yellow.png';
 import RegisterImage from '../../images/register.png';
 import HackvilleLogo from '../../images/hackville-black-logo.svg';
 import HackademicsLogo from '../../images/ha-wordmark-bw-black-SVG.svg';
@@ -34,7 +35,7 @@ const Contents = styled.div`
 
 const Register = () => {
   return (
-    <Container>
+    <Container background={YellowBackground}>
       <Contents>
         <LogoContainer>
           <Hackademics src={HackademicsLogo}/>

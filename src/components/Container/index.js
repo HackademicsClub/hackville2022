@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import YellowBackground from '../../images/backgrounds/bg-yellow.png'
 
 const StyledContainer = styled.div`
-  background-image: url(${YellowBackground});
+  background-image: url(${(props) => props.background});   
   width: 100%;
   height: 100vh;
   max-width: none;
@@ -19,10 +19,10 @@ const StyledContainer = styled.div`
 
 `
 
-const Container = (props) => {
+const Container = ({ background, children }) => {
   return (
-    <StyledContainer>
-      { props.children }
+    <StyledContainer background={background}>
+      { children }
     </StyledContainer>
   )
 }
