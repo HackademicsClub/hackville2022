@@ -10,15 +10,22 @@ const Card = styled.div`
   align-items: center;
   background-color: #FCE4EC;
   border: 3px solid #000000;
+  border-radius: 10px;
   padding: 2em;
   flex: 50%;
   max-width: 520px;
+
   &:not(:last-child) {
     margin-bottom: 2em;
   }
 
   @media (max-width: 767px) and (min-width: 477px) {
     width: 401px;
+    padding: 10px;
+  }
+
+  @media (max-width: 991px) and (min-width: 768px) {
+    padding: 1em;
   }
 `
 const CardContent = styled.div`

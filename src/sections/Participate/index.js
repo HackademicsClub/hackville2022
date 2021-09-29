@@ -13,6 +13,7 @@ const ParticipateIcon = styled.img`
   width: 231px;
   height: 126px;
   border: 2px solid #000000;
+  border-radius: 10px;
 
   @media only screen and (max-width: 478px) {
     width: 144px;
