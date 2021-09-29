@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import YellowBackground from '../../images/backgrounds/bg-yellow.png'
 
 const StyledSection = styled.section`
   background-image: url(${(props) => props.background});   
