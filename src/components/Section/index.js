@@ -4,6 +4,7 @@ import YellowBackground from '../../images/backgrounds/bg-yellow.png'
 
 const StyledSection = styled.section`
   background-image: url(${(props) => props.background});   
+  background-color: ${(props) => props.bgColor};
   width: 100%;
   height: 100vh;
   max-height: 1100px;
@@ -20,9 +21,9 @@ const StyledSection = styled.section`
   justify-content: center;
 `
 
-const Section = ({ background, children }) => {
+const Section = ({ background, bgColor, children }) => {
   return (
-    <StyledSection background={background}>
+    <StyledSection background={background} bgColor={bgColor}>
       { children }
     </StyledSection>
   )
