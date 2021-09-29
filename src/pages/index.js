@@ -6,6 +6,7 @@ import Header from '../components/Header';
 // Sections
 import Register from '../sections/Register';
 import Participate from '../sections/Participate';
+import Challenge from '../sections/Challenges';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -19,19 +20,8 @@ const GlobalStyle = createGlobalStyle`
   html {
     height: 100%;
   }
-
 `
 
-// const PageWrapper = styled.div`
-//   position: relative;
-//   z-index: 0;
-//   width: 100%;
-//   display: flex;
-//   flex-direction: column;
-// `
-
-
-// markup
 const IndexPage = () => {
   return (
     <>
@@ -45,6 +35,7 @@ const IndexPage = () => {
       <Header/>
       <Register/>
       <Participate/>
+      {/* <Challenge/> */}
     </>
 
   )
