@@ -8,6 +8,9 @@ import Window from '../../components/Window';
 // Assets
 import PinkBackground from '../../images/backgrounds/bg-pink.png';
 import ParticipateImage from '../../images/participate.png';
+import PeopleImage from '../../images/people.svg';
+import PrizeImage from '../../images/prize.svg';
+import ProjectImage from '../../images/project.svg';
 
 const ParticipateIcon = styled.img`
   width: 231px;
@@ -61,9 +64,12 @@ const Participate = () => (
       <WindowContents>
         <ParticipateContainer>
           <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds
-          — you’re sure to meet like-minded students and form lifelong friendships.'/>
-          <ParticipateCard title='Build something cool' text='With exciting challenges to inspire you, the possibilities are endless.'/>
-          <ParticipateCard title='Win amazing prizes' text='Last year, we gave away more than $10,000 in prizes — and we have lots to give away this year!'/>
+          — you’re sure to meet like-minded students and form lifelong friendships.'
+           image={PeopleImage}/>
+          <ParticipateCard title='Build something cool' text='With exciting challenges to inspire you, the possibilities are endless.'
+           image={ProjectImage}/>
+          <ParticipateCard title='Win amazing prizes' text='Last year, we gave away more than $10,000 in prizes — and we have lots to give away this year!'
+           image={PrizeImage}/>
         </ParticipateContainer>
         <Timeline/>
       </WindowContents>

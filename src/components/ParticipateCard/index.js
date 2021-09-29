@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Assets
-import PeopleImage from '../../images/people.svg';
-
 const Card = styled.div`
   display: flex;
   flex-direction: row;
@@ -48,7 +45,7 @@ const CardText = styled.p`
 `
 
 // Allow width & height to be passed
-const PeopleIcon = styled.img`
+const Icon = styled.img`
   border: 2px solid #191717;
   border-radius: 12px;
   box-shadow: 2px 0px 0px black;
@@ -56,11 +53,9 @@ const PeopleIcon = styled.img`
   height: 117px;
 `
 
-
-
-const ParticipateCard = ({ title, text }) => (
+const ParticipateCard = ({ title, text, image }) => (
   <Card>
-    <PeopleIcon src={PeopleImage}/>
+    <Icon src={image}/>
     <CardContent>
       <CardHeader>{ title }</CardHeader>
       <CardText>
