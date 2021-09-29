@@ -4,14 +4,21 @@ import styled from "styled-components"
 export const WindowContainer = styled.div`
   display: flex;
   flex-direction: column;
-  border: 2px solid #050605;
+  border: 3px solid #050605;
   border-radius: 6px;
   box-shadow: 2px 0px 0px black;
   background-color: white;
 
   width: ${props => props.width ? props.width : ''};
   height: ${props => props.height ? props.height : ''};
-  max-width: 1276px;
+
+  @media only screen and (max-width: 478px) {
+    width: ${props => props.mobileWidth ? props.mobileWidth : ''};
+  }
+
+  @media (max-width: 767px) and (min-width: 477px) {
+    width: ${props => props.mediumViewWidth ? props.mediumViewWidth : ''};
+  }
 `
 
 export const WindowHeader = styled.div`
@@ -23,6 +30,7 @@ export const DotsContainer = styled.div`
   position: absolute;
   display: flex;
   flex-direction: row;
+  margin-top: 0.2rem;
 `
 
 export const WindowDot = styled.span`

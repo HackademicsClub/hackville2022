@@ -9,12 +9,16 @@ const Card = styled.div`
   flex-direction: row;
   align-items: center;
   background-color: #FCE4EC;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   padding: 2em;
   flex: 50%;
   max-width: 520px;
   &:not(:last-child) {
     margin-bottom: 2em;
+  }
+
+  @media (max-width: 767px) and (min-width: 477px) {
+    width: 401px;
   }
 `
 const CardContent = styled.div`
@@ -24,9 +28,16 @@ const CardContent = styled.div`
 const CardHeader = styled.h2`
   font-size: 24px;
   margin-bottom: 8px;
+  @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
+    font-size: 14px;
+  }
 `
 const CardText = styled.p`
   font-size: 17px;
+
+  @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
+    font-size: 14px;
+  }
 `
 
 // Allow width & height to be passed
@@ -34,6 +45,8 @@ const PeopleIcon = styled.img`
   border: 2px solid #191717;
   border-radius: 12px;
   box-shadow: 2px 0px 0px black;
+  width: 117px;
+  height: 117px;
 `
 
 

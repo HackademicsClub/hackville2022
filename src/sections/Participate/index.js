@@ -13,6 +13,16 @@ const ParticipateIcon = styled.img`
   width: 231px;
   height: 126px;
   border: 2px solid #000000;
+
+  @media only screen and (max-width: 478px) {
+    width: 144px;
+    height: 144px;
+  }
+
+  @media (max-width: 767px) and (min-width: 477px) {
+    width: 119px;
+    height: 119px;
+  }
 `
 
 const WhyParticipateText = styled.span`
@@ -20,6 +30,10 @@ const WhyParticipateText = styled.span`
   align-items: center;
   margin-left: 1em;
   font-size: 17px;
+
+  @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
+    font-size: 14px;
+  }
 `
 
 const WindowContents = styled.div`
@@ -36,13 +50,13 @@ const ParticipateContainer = styled.div`
 
 const Participate = () => (
   <Section background={PinkBackground}>
-    <Window title="‎‎‎Window" >
+    <Window width="653px" mediumViewWidth="392px" mobileWidth="398px" >
       <ParticipateIcon src={ParticipateImage}/>
       <WhyParticipateText>
       Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
       </WhyParticipateText>
     </Window>
-    <Window title="Why Participate?">
+    <Window title="Why Participate?"  width="885px" mediumViewWidth="647px" mobileWidth="398px">
       <WindowContents>
         <ParticipateContainer>
           <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds

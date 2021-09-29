@@ -46,11 +46,19 @@ const TimelineItemTitle = styled.h2`
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 1em;
+
+  @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
+    font-size: 14px;
+  }
 `
 
 const TimelineItemText = styled.h2`
   font-size: 17px;
   font-weight: normal;
+
+  @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
+    font-size: 14px;
+  }
 `
 
 
