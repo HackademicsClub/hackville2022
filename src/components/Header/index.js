@@ -4,17 +4,18 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 // Assets
-import HackademicsIcon from '../../images/ha-white-icon.svg'
+import HackademicsImage from '../../images/ha-white-icon.svg'
 
-const hackademicsIcon = {
-  cursor: 'pointer',
-  width: '49px',
-  height:'49px',
-  padding: '5px',
-  border: '2.5px solid white',
-  boxShadow: '3px 0px 0px white',
-  borderRadius: '8px'
-}
+const HackademicsIcon = styled.img`
+  cursor: pointer;
+  width: 49px;
+  height: 49px;
+  padding: 5px;
+  border: 2.5px solid white;
+  box-shadow: 3px 0px 0px white;
+  border-radius: 8px;
+`
+
 
 const Navigation = styled.nav`
   background-color: #242424;
@@ -23,6 +24,10 @@ const Navigation = styled.nav`
   color: white;
   padding: 30px 8%;
   align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `
 
 const NavLinks = styled.ul`
@@ -46,8 +51,8 @@ const NavLinks = styled.ul`
 const Header = () => {
   return(
     <Navigation>
-      <a>
-        <img style={hackademicsIcon} src={HackademicsIcon} alt="Hackademics"></img>
+      <a href="https://www.hackademics.club/">
+        <HackademicsIcon src={HackademicsImage} alt="Hackademics"></HackademicsIcon>
       </a>
       <NavLinks>
         <AnchorLink>Register</AnchorLink>
