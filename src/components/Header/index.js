@@ -25,7 +25,7 @@ const Navigation = styled.nav`
   padding: 30px 8%;
   align-items: center;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 872px) {
     justify-content: center;
   }
 `
@@ -42,7 +42,7 @@ const NavLinks = styled.ul`
   }
 
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 872px) {
     display: none;
   }
 `
