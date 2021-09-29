@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import Register from '../sections/Register';
 import Participate from '../sections/Participate';
 import Challenge from '../sections/Challenges';
+import Footer from '../components/Footer';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -35,6 +36,7 @@ const IndexPage = () => {
       <Header/>
       <Register/>
       <Participate/>
+      <Footer/>
       {/* <Challenge/> */}
     </>
 
