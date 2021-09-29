@@ -7,7 +7,7 @@ const TimelineContainer = styled.ul`
   list-style: none;
   padding: 0;
 
-  @media only screen and (max-width: 478px) {
+  @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
     display: none;
   }
 `

@@ -56,7 +56,7 @@ const Participate = () => (
       Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
       </WhyParticipateText>
     </Window>
-    <Window title="Why Participate?"  width="885px" mediumViewWidth="647px" mobileWidth="398px">
+    <Window title="Why Participate?"  mobileWidth="398px">
       <WindowContents>
         <ParticipateContainer>
           <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds
