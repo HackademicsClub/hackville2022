@@ -11,6 +11,7 @@ export const WindowContainer = styled.div`
 
   width: ${props => props.width ? props.width : ''};
   height: ${props => props.height ? props.height : ''};
+  margin: ${props => props.margin ? props.margin : ''};
 
   @media only screen and (max-width: 478px) {
     width: ${props => props.mobileWidth ? props.mobileWidth : ''};

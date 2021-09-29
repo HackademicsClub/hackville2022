@@ -5,7 +5,8 @@ import { WindowContainer, WindowHeader, WindowTitle, WindowDot, WindowContent, D
 
 const Window = (props) => {
   return (
-    <WindowContainer width={props.width} mediumViewWidth={props.mediumViewWidth} mobileWidth={props.mobileWidth} height={props.height}>
+    <WindowContainer width={props.width} mediumViewWidth={props.mediumViewWidth} mobileWidth={props.mobileWidth} height={props.height}
+      margin={props.margin}>
       <WindowHeader>
         <DotsContainer>
           <WindowDot style={{backgroundColor: 'black'}}/>

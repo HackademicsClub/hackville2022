@@ -50,7 +50,7 @@ const ParticipateContainer = styled.div`
 
 const Participate = () => (
   <Section background={PinkBackground}>
-    <Window width="653px" mediumViewWidth="392px" mobileWidth="398px" >
+    <Window width="653px" mediumViewWidth="392px" mobileWidth="398px" margin='0 0 0.8em 0'>
       <ParticipateIcon src={ParticipateImage}/>
       <WhyParticipateText>
       Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
