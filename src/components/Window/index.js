@@ -5,14 +5,14 @@ import { WindowContainer, WindowHeader, WindowTitle, WindowDot, WindowContent, D
 
 const Window = (props) => {
   return (
-    <WindowContainer width={props.width} height={props.height}>
+    <WindowContainer width={props.width} mediumViewWidth={props.mediumViewWidth} mobileWidth={props.mobileWidth} height={props.height}>
       <WindowHeader>
         <DotsContainer>
           <WindowDot style={{backgroundColor: 'black'}}/>
           <WindowDot/>
           <WindowDot/>
         </DotsContainer>
-        <WindowTitle>{ props.title }</WindowTitle>
+        <WindowTitle>{ props.title ? props.title : <br/>}</WindowTitle>
       </WindowHeader>
       <WindowContent>
         { props.children }
