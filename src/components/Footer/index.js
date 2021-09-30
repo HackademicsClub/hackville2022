@@ -33,6 +33,10 @@ const Link = styled.a`
 const Socials = styled.div`
   display: flex;
   flex-direction: row;
+
+  @media only screen and (max-width: 747px) {
+    flex-direction: column;
+  }
 `
 
 const SocialIcon = styled.img`
