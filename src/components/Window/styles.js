@@ -14,11 +14,11 @@ export const WindowContainer = styled.div`
   margin: ${props => props.margin ? props.margin : ''};
 
   @media only screen and (max-width: 478px) {
-    width: ${props => props.mobileWidth ? props.mobileWidth : ''};
+    max-width: ${props => props.mobileWidth ? props.mobileWidth : ''};
   }
 
   @media (max-width: 767px) and (min-width: 477px) {
-    width: ${props => props.mediumViewWidth ? props.mediumViewWidth : ''};
+    max-width: ${props => props.mediumViewWidth ? props.mediumViewWidth : ''};
   }
 `
 
@@ -32,6 +32,7 @@ export const DotsContainer = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 0.2rem;
+  z-index: 5;
 `
 
 export const WindowDot = styled.span`

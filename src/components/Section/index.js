@@ -17,12 +17,14 @@ const StyledSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: ${(props) => props.justifyContent ? props.justifyContent : 'center'};
+
+  overflow: hidden;
 `
 
-const Section = ({ background, bgColor, children }) => {
+const Section = ({ background, bgColor, justifyContent, children }) => {
   return (
-    <StyledSection background={background} bgColor={bgColor}>
+    <StyledSection background={background} bgColor={bgColor} justifyContent={justifyContent}>
       { children }
     </StyledSection>
   )

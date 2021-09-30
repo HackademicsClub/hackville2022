@@ -8,7 +8,7 @@ const Card = styled.div`
   background-color: #FCE4EC;
   border: 3px solid #000000;
   border-radius: 10px;
-  padding: 2em;
+  padding: 1.5em;
   flex: 50%;
   max-width: 520px;
 
@@ -16,9 +16,13 @@ const Card = styled.div`
     margin-bottom: 2em;
   }
 
+  
+  @media only screen and (max-width: 478px) {
+    padding: 1em;
+  }
+
   @media (max-width: 767px) and (min-width: 477px) {
-    width: 401px;
-    padding: 10px;
+    padding: 0.8em;
   }
 
   @media (max-width: 991px) and (min-width: 768px) {
@@ -37,7 +41,7 @@ const CardHeader = styled.h2`
   }
 `
 const CardText = styled.p`
-  font-size: 17px;
+  font-size: 1em;
 
   @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
     font-size: 14px;

@@ -33,7 +33,7 @@ const WhyParticipateText = styled.span`
   display: flex;
   align-items: center;
   margin-left: 1em;
-  font-size: 17px;
+  font-size: 1em;
 
   @media only screen and (max-width: 478px), (max-width: 767px) and (min-width: 477px) {
     font-size: 14px;
@@ -53,14 +53,14 @@ const ParticipateContainer = styled.div`
 
 
 const Participate = () => (
-  <Section background={PinkBackground}>
-    <Window width="653px" mediumViewWidth="392px" mobileWidth="398px" margin='0 0 0.8em 0'>
+  <Section background={PinkBackground} justifyContent='space-evenly'>
+    <Window width="653px" mediumViewWidth="380px" mobileWidth="380px">
       <ParticipateIcon src={ParticipateImage}/>
       <WhyParticipateText>
       Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
       </WhyParticipateText>
     </Window>
-    <Window title="Why Participate?"  mobileWidth="398px">
+    <Window title="Why Participate?"  mobileWidth="380px">
       <WindowContents>
         <ParticipateContainer>
           <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds
