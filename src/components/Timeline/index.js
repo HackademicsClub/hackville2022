@@ -17,7 +17,7 @@ const TimelineContainer = styled.ul`
 `
 
 const TimelineItem = styled.li`
-  padding-bottom: 8rem;
+  padding-bottom: 5rem;
   border-left: 4px solid #F8B0C8;
   position: relative;
   padding-left: 30px;
