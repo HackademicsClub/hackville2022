@@ -31,21 +31,20 @@ const Contents = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
-
-  margin-top: -12em;
+  margin: 5em;
 
   @media (max-width: 767px) and (min-width: 477px) {
-    margin-top: -18em;
+    margin: 6em;
   }
 
   @media only screen and (max-width: 478px) {
-    margin-top: -30em;
+    margin: 6em;
   }
 `
 
 const Register = () => {
   return (
-    <Section background={YellowBackground}>
+    <Section background={YellowBackground} id='register'>
       <Contents>
         <LogoContainer>
           <Hackademics src={HackademicsLogo}/>

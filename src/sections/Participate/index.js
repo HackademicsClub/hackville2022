@@ -51,29 +51,46 @@ const ParticipateContainer = styled.div`
   flex-direction: column;
 `
 
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em;
+
+  @media (max-width: 767px) and (min-width: 477px) {
+    margin: 6em;
+  }
+
+  @media only screen and (max-width: 478px) {
+    margin: 6em;
+  }
+`
+
 
 const Participate = () => (
-  <Section background={PinkBackground} justifyContent='space-evenly'>
-    <Window width="653px" mediumViewWidth="380px" mobileWidth="380px">
-      <ParticipateIcon src={ParticipateImage}/>
-      <WhyParticipateText>
-      Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
-      </WhyParticipateText>
-    </Window>
-    <Window title="Why Participate?"  mobileWidth="380px">
-      <WindowContents>
-        <ParticipateContainer>
-          <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds
-          — you’re sure to meet like-minded students and form lifelong friendships.'
-           image={PeopleImage}/>
-          <ParticipateCard title='Build something cool' text='With exciting challenges to inspire you, the possibilities are endless.'
-           image={ProjectImage}/>
-          <ParticipateCard title='Win amazing prizes' text='Last year, we gave away more than $10,000 in prizes — and we have lots to give away this year!'
-           image={PrizeImage}/>
-        </ParticipateContainer>
-        <Timeline/>
-      </WindowContents>
-    </Window>
+  <Section id='participate' background={PinkBackground} justifyContent='space-evenly' >
+    <Container>
+      <Window width="653px" mediumViewWidth="380px" mobileWidth="380px" margin="0 2px 0.8em 0">
+        <ParticipateIcon src={ParticipateImage}/>
+        <WhyParticipateText>
+        Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
+        </WhyParticipateText>
+      </Window>
+      <Window title="Why Participate?"  mobileWidth="380px">
+        <WindowContents>
+          <ParticipateContainer>
+            <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds
+            — you’re sure to meet like-minded students and form lifelong friendships.'
+            image={PeopleImage}/>
+            <ParticipateCard title='Build something cool' text='With exciting challenges to inspire you, the possibilities are endless.'
+            image={ProjectImage}/>
+            <ParticipateCard title='Win amazing prizes' text='Last year, we gave away more than $10,000 in prizes — and we have lots to give away this year!'
+            image={PrizeImage}/>
+          </ParticipateContainer>
+          <Timeline/>
+        </WindowContents>
+      </Window>
+    </Container>
   </Section>
 )
 
