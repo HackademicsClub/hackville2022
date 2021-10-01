@@ -71,10 +71,12 @@ const Participate = () => (
   <Section id='participate' background={PinkBackground} justifyContent='space-evenly' >
     <Container>
       <Window width="653px" mediumViewWidth="380px" mobileWidth="380px" margin="0 2px 0.8em 0">
-        <ParticipateIcon src={ParticipateImage}/>
-        <WhyParticipateText>
-        Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
-        </WhyParticipateText>
+        <WindowContents>
+          <ParticipateIcon src={ParticipateImage}/>
+          <WhyParticipateText>
+          Over 36 hours, students from around the world come together to tackle innovative problems. Come for the prizes, networking opportunities, and a once-in-a-lifetime learning experience!
+          </WhyParticipateText>
+        </WindowContents>
       </Window>
       <Window title="Why Participate?"  mobileWidth="380px">
         <WindowContents>

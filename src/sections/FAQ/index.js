@@ -4,10 +4,19 @@ import FAQCard from '../../components/FAQCard';
 import Section from '../../components/Section';
 import Window from '../../components/Window';
 
+// Assets
+import FAQImage from '../../images/faq.png';
+
 const FAQWindowContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  overflow: auto;
+  max-height: 793px;
+
+  @media (min-width: 767px) {
+    margin-left: 1em;
+  }
 `
 
 const Container = styled.div`
@@ -25,11 +34,26 @@ const Container = styled.div`
   }
 `
 
+const FAQIcon = styled.img`
+  border: 2px solid black;
+  width: 478px;
+  height: 793px;
+  border-radius: 10px;
+
+  @media (max-width: 767px) and (min-width: 477px) {
+    display: none;
+  }
+
+  @media only screen and (max-width: 478px) {
+    display: none;
+  }
+`
 
 const FAQ = () => (
   <Section id='faq' bgColor='#EEEEEE'>
     <Container>
-      <Window title='Frequently Asked Questions' shortTitle='FAQ' width='900px' mobileWidth='380px'>
+      <Window title='Frequently Asked Questions' shortTitle='FAQ' width='1200px' mobileWidth='380px' mediumViewWidth="380px">
+        <FAQIcon src={FAQImage}/>
         <FAQWindowContainer>
           <FAQCard question='What is a hackathon?' answer='A hackathon is a sprint-like event where innovators and inventors, usually students,
           can come together to solve real-world challenges using technology. They can be as long as an weekend.'/>
