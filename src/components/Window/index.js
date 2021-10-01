@@ -13,7 +13,7 @@ const Window = (props) => {
           <WindowDot/>
         </DotsContainer>
         <WindowTitle>{ props.title ? props.title : <br/>}</WindowTitle>
-        <WindowShortTitle>{ props.shortTitle ? props.shortTitle : <br/>}</WindowShortTitle>
+        <WindowShortTitle>{ props.shortTitle ? props.shortTitle : props.title ? props.title : <br/> }</WindowShortTitle>
       </WindowHeader>
       <WindowContent>
         { props.children }
