@@ -5,9 +5,9 @@ const StyledSection = styled.section`
   background-image: url(${(props) => props.background});   
   background-color: ${(props) => props.bgColor};
   width: 100%;
-  height: 100vh;
+  /* height: 100vh;
   max-height: 1100px;
-  min-height: 1100px;
+  min-height: 1100px; */
   max-width: none;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,9 +22,9 @@ const StyledSection = styled.section`
   overflow: hidden;
 `
 
-const Section = ({ background, bgColor, justifyContent, children }) => {
+const Section = ({ background, bgColor, justifyContent, id, children }) => {
   return (
-    <StyledSection background={background} bgColor={bgColor} justifyContent={justifyContent}>
+    <StyledSection background={background} bgColor={bgColor} justifyContent={justifyContent} id={id}>
       { children }
     </StyledSection>
   )
