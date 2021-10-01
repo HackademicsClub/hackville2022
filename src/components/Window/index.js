@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { WindowContainer, WindowHeader, WindowTitle, WindowDot, WindowContent, DotsContainer } from "./styles"
 
 
