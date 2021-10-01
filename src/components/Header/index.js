@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 // Assets
@@ -55,11 +55,11 @@ const Header = () => {
         <HackademicsIcon src={HackademicsImage} alt="Hackademics"></HackademicsIcon>
       </a>
       <NavLinks>
-        <AnchorLink>Register</AnchorLink>
-        <AnchorLink>Why?</AnchorLink>
-        <AnchorLink>Challenge</AnchorLink>
-        <AnchorLink>Sponsors</AnchorLink>
-        <AnchorLink>FAQ</AnchorLink>
+        <Link to='register'>Register</Link>
+        <Link to='participate'>Why?</Link>
+        {/* <Link>Challenge</Link>
+        <Link>Sponsors</Link> */}
+        <Link to='faq'>FAQ</Link>
       </NavLinks>
     </Navigation>
   )
