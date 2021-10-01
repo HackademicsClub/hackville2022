@@ -24,7 +24,8 @@ const FAQQuestion = styled.div`
 
 const FAQAnswer = styled.div`
   font-size: 14px;
-  padding: 0.5em;
+  padding: 0.5em 0.5em 0 0.5em;
+
   display: ${(props => props.collapsed ? 'block' : 'none')};
 `
 
