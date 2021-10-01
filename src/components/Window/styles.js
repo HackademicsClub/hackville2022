@@ -51,7 +51,7 @@ export const WindowTitle = styled.span`
   flex: 1 0 auto;
   width: inherit;
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 480px) {
     display: none;
   }
 `
@@ -64,7 +64,7 @@ export const WindowShortTitle = styled.span`
   width: inherit;
   display: none;
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 480px) {
     display: block;
   }
 `
