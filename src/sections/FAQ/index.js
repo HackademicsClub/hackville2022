@@ -29,7 +29,7 @@ const Container = styled.div`
 const FAQ = () => (
   <Section id='faq' bgColor='#EEEEEE'>
     <Container>
-      <Window title='Frequently Asked Questions' width='900px' mobileWidth='380px'>
+      <Window title='Frequently Asked Questions' shortTitle='FAQ' width='900px' mobileWidth='380px'>
         <FAQWindowContainer>
           <FAQCard question='What is a hackathon?' answer='A hackathon is a sprint-like event where innovators and inventors, usually students,
           can come together to solve real-world challenges using technology. They can be as long as an weekend.'/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { WindowContainer, WindowHeader, WindowTitle, WindowDot, WindowContent, DotsContainer } from "./styles"
+import { WindowContainer, WindowHeader, WindowTitle, WindowShortTitle, WindowDot, WindowContent, DotsContainer } from "./styles"
 
 
 const Window = (props) => {
@@ -13,6 +13,7 @@ const Window = (props) => {
           <WindowDot/>
         </DotsContainer>
         <WindowTitle>{ props.title ? props.title : <br/>}</WindowTitle>
+        <WindowShortTitle>{ props.shortTitle ? props.shortTitle : <br/>}</WindowShortTitle>
       </WindowHeader>
       <WindowContent>
         { props.children }

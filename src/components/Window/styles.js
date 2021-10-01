@@ -50,6 +50,23 @@ export const WindowTitle = styled.span`
   text-align: center;
   flex: 1 0 auto;
   width: inherit;
+
+  @media only screen and (max-width: 400px) {
+    display: none;
+  }
+`
+
+export const WindowShortTitle = styled.span`
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 0 auto;
+  width: inherit;
+  display: none;
+
+  @media only screen and (max-width: 400px) {
+    display: block;
+  }
 `
 
 export const WindowContent = styled.div`
