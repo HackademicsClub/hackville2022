@@ -40,11 +40,11 @@ const FAQIcon = styled.img`
   height: 793px;
   border-radius: 10px;
 
-  @media (max-width: 767px) and (min-width: 477px) {
+  @media (max-width: 767px) and (min-width: 489px) {
     display: none;
   }
 
-  @media only screen and (max-width: 478px) {
+  @media only screen and (max-width: 490px) {
     display: none;
   }
 `
