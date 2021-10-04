@@ -57,8 +57,8 @@ const Header = () => {
       <NavLinks>
         <Link to='register'>Register</Link>
         <Link to='participate'>Why?</Link>
-        {/* <Link>Challenge</Link>
-        <Link>Sponsors</Link> */}
+        <Link to='challenges'>Challenges</Link>
+        {/* <Link>Sponsors</Link> */}
         <Link to='faq'>FAQ</Link>
       </NavLinks>
     </Navigation>
