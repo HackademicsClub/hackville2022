@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from '../../components/Section';
 import Window from '../../components/Window';
-import ApplyButton from '../../components/Button'
+import ApplyButton from '../../components/ApplyButton'
 import { ButtonGroup } from '../../components/Button/styles';
 import { SponsorText, DateText, PresentText, LogoContainer, Hackademics, Hackville } from './styles';
 
@@ -42,6 +42,12 @@ const Contents = styled.div`
   }
 `
 
+const RegisterWindowLayout = styled.div`
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+`
+
 const Register = () => {
   return (
     <Section background={YellowBackground} id='register'>
@@ -54,11 +60,13 @@ const Register = () => {
         <DateText>January 27-29th 2022 / Virtual Hackathon</DateText>
         <SponsorText>Interested in sponsoring?</SponsorText>
         <Window title="Register">
-          <RegisterIcon src={RegisterImage}/>
-          <ButtonGroup>
-            <ApplyButton text="Apply As Hacker" to="https://google.ca"/>
-            <ApplyButton text="Apply As Mentor"/>
-          </ButtonGroup>
+          <RegisterWindowLayout>
+            <RegisterIcon src={RegisterImage}/>
+            <ButtonGroup>
+              <ApplyButton text="Apply As Hacker" to="https://google.ca"/>
+              <ApplyButton text="Apply As Mentor"/>
+            </ButtonGroup>
+          </RegisterWindowLayout>
         </Window>
       </Contents>
     </Section>

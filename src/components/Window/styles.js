@@ -11,7 +11,7 @@ export const WindowContainer = styled.div`
 
   width: ${props => props.width ? props.width : ''};
   height: ${props => props.height ? props.height : ''};
-  margin: ${props => props.margin ? props.margin : ''};
+  margin: ${props => props.margin ? props.margin : '0 2px 0 0'};
 
   @media only screen and (max-width: 478px) {
     max-width: ${props => props.mobileWidth ? props.mobileWidth : ''};
@@ -69,7 +69,9 @@ export const WindowShortTitle = styled.span`
   }
 `
 
-export const WindowContent = styled.div`
+// Use this layout as default if nothing needs to be done
+// to the contents of a window.
+export const WindowLayout = styled.div`
   padding: 24px;
   display: flex;
   flex-direction: row;

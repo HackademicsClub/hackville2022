@@ -22,10 +22,11 @@ const Container = styled.div`
     flex-direction: column;
   }
 `
-const LastYearWindowContent = styled.div`
-  text-align: center;
+const LastYearWindowLayout = styled.div`
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding: 24px;
 `
 const HeaderText = styled.span`
   font-size: 17px;
@@ -39,7 +40,7 @@ const HeaderText = styled.span`
   }
 `
 
-const WindowContents = styled.div`
+const ChallengesWindowLayout = styled.div`
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -54,15 +55,15 @@ const Challenge = () => (
   <Section id='challenges' bgColor='#ADDFD5'>
     <Container>
       <Window title="">
-        <LastYearWindowContent>
+        <LastYearWindowLayout>
           <HeaderText>Last year, we had...</HeaderText>
           <ChallengeStatistics/>
-        </LastYearWindowContent>
+        </LastYearWindowLayout>
       </Window>
       <Window title="Challenges" margin='1.5em'>
-        <WindowContents>
+        <ChallengesWindowLayout>
           <h1>Challenges coming soon!</h1>
-        </WindowContents>
+        </ChallengesWindowLayout>
       </Window>
     </Container>
   </Section>

@@ -41,17 +41,14 @@ const ChallengeStatistics = () => (
       <StaticImage src='../../images/people.svg' alt=""/>
       <StatisticText>100 hackers</StatisticText>
     </IconContainer>
-    <IconContainer>
-      <StaticImage src='../../images/project.svg' alt=""/>
-      <StatisticText>23 projects</StatisticText>
-    </IconContainer>
+
     <IconContainer>
       <StaticImage src='../../images/project.svg' alt=""/>
       <StatisticText>23 projects</StatisticText>
     </IconContainer>
     <IconContainer>
       <StaticImage src='../../images/prize.svg' alt=""/>
-      <StatisticText>$4k projects</StatisticText>
+      <StatisticText>$4k prizes</StatisticText>
     </IconContainer>
   </IconsContainer>
 )
