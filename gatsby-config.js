@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Hackville2022",
+    siteUrl: "https://www.hackville.io",
+    title: "Hackville 2022 - A Sheridan College Hackathon",
   },
   plugins: [
     "gatsby-plugin-styled-components",
