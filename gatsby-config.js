@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.hackville.io",
     title: "Hackville 2022 - A Sheridan College Hackathon",
+    description: "Hackville is Sheridan College's flagship hackathon, hosted by and for students."
   },
+  pathPrefix: "/hackville2022",
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
