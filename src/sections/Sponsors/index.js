@@ -58,7 +58,7 @@ const Sponsors = () => (
           <CurrentSponsors/>
         </SponsorsWindowLayout>
       </Window>
-      <Window title='Many thanks to our past sponsors!' shortTitle='💗 to our past sponsors!'>
+      <Window title='Many thanks to our past sponsors!' shortTitle='💗 Past Sponsors 💗'>
         <PastSponsorLayout>
           <PastSponsorGrid/>
         </PastSponsorLayout>
