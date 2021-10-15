@@ -16,7 +16,7 @@ const FAQWindowContainer = styled.div`
   max-height: 793px;
   margin-left: 1em;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 900px) {
     margin-left: 0;
   }
 `
@@ -42,7 +42,7 @@ const FAQIcon = styled.img`
   height: 793px;
   border-radius: 10px;
 
-  @media (max-width: 1200px) and (min-width: 489px) {
+  @media (max-width: 900px) and (min-width: 489px) {
     display: none;
   }
 
@@ -54,7 +54,7 @@ const FAQIcon = styled.img`
 const FAQ = () => (
   <Section id='faq' bgColor='#EEEEEE'>
     <Container>
-      <Window title='Frequently Asked Questions' shortTitle='FAQ' maxWidth='1200px' mobileWidth='380px' mediumViewWidth="380px">
+      <Window title='Frequently Asked Questions' shortTitle='FAQ' maxWidth='1200px' minWidth='360px' mobileWidth='360px' mediumViewWidth="380px">
         <WindowLayout>
           <FAQIcon src={FAQImage}/>
           <FAQWindowContainer>

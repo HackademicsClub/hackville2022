@@ -14,9 +14,11 @@ export const WindowContainer = styled.div`
   margin: ${props => props.margin ? props.margin : '0 2px 0 0'};
 
   max-width: ${props => props.maxWidth ? props.maxWidth : ''};
+  min-width: ${props => props.minWidth ? props.minWidth : ''} ;
 
   @media only screen and (max-width: 478px) {
     max-width: ${props => props.mobileWidth ? props.mobileWidth : ''};
+    min-width: ${props => props.minWidth ? props.minWidth : ''} ;
   }
 
   @media (max-width: 767px) and (min-width: 477px) {

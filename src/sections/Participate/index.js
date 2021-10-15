@@ -79,7 +79,7 @@ const Participate = () => (
           </WhyParticipateText>
         </WindowLayout>
       </Window>
-      <Window title="Why Participate?"  mobileWidth="380px">
+      <Window title="Why Participate?"  minWidth='360px' mobileWidth="360px">
         <ParticipateWindowLayout>
           <ParticipateContainer>
             <ParticipateCard title='Make connections' text='We had over 100 hackers last year from all backgrounds
