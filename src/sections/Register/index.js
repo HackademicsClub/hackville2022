@@ -63,7 +63,7 @@ const Register = () => {
           <RegisterWindowLayout>
             <RegisterIcon src={RegisterImage}/>
             <ButtonGroup>
-              <ApplyButton text="Apply As Hacker" to="https://google.ca"/>
+              <ApplyButton text="Apply As Hacker"/>
               <ApplyButton text="Apply As Mentor"/>
             </ButtonGroup>
           </RegisterWindowLayout>
