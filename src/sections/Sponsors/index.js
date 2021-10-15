@@ -49,13 +49,6 @@ const SponsorsWindowLayout = styled.div`
   }
 `
 
-// const SponsorHeaderLayout = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
- 
-// `
-
 const Sponsors = () => (
   <Section id='sponsors' bgColor='#B7C5F6'>
     <Container>
