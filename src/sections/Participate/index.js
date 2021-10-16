@@ -19,14 +19,17 @@ const ParticipateIcon = styled.img`
   border: 2px solid #000000;
   border-radius: 10px;
 
+
   @media only screen and (max-width: 478px) {
     width: 144px;
     height: 144px;
+    object-fit: cover;
   }
 
   @media (max-width: 767px) and (min-width: 477px) {
     width: 119px;
     height: 119px;
+    object-fit: cover;
   }
 `
 
