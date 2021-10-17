@@ -9,6 +9,7 @@ const Card = styled.div`
   border: 2px solid black;
   box-shadow: 2px 0px 0px black;
   padding: 1em;
+  max-width: 500px;
   
 
   :not(:last-child) {

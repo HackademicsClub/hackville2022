@@ -15,6 +15,7 @@ const FAQWindowContainer = styled.div`
   overflow: auto;
   max-height: 793px;
   margin-left: 1em;
+  max-width: 500px;
 
   @media (max-width: 900px) {
     margin-left: 0;
