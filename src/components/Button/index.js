@@ -6,13 +6,17 @@ const ButtonText = styled.span`
   font-size: 17px;
 `
 
-const Button = ({className, to, text}) => (
+const Button = ({className, to, text, preRegister}) => (
   <button type="button" onClick={(e) => {
     e.preventDefault();
     window.location.href=to;
   }} className={className}>
     <ButtonText>
       { text }
+      <br/>
+      {preRegister && 
+        <span>PRE-REGISTER NOW</span>
+      }
     </ButtonText>
   </button>
 )
