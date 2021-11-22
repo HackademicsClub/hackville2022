@@ -54,7 +54,7 @@ const Sponsors = () => (
     <Container>
       <Window title='Sponsors' margin="0 2px 0.8em 0">
         <SponsorsWindowLayout>
-          <SponsorButton text="Become a sponsor" />
+          <SponsorButton text="Become a sponsor" to="mailto:sheridanhackville@gmail.com"/>
           <CurrentSponsors/>
         </SponsorsWindowLayout>
       </Window>

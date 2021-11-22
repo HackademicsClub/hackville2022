@@ -58,7 +58,7 @@ const Register = () => {
         </LogoContainer>
         <Hackville src={HackvilleLogo}/>
         <DateText>January 14-16th 2022 / Virtual Hackathon</DateText>
-        <SponsorText>Interested in sponsoring?</SponsorText>
+        <SponsorText href="mailto:sheridanhackville@gmail.com">Interested in sponsoring?</SponsorText>
         <Window title="Register">
           <RegisterWindowLayout>
             <RegisterIcon src={RegisterImage}/>

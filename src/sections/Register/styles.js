@@ -11,18 +11,20 @@ export const DateText = styled.span`
   font-size: 24px;
   font-weight: 600;
   color: black;
+  text-align: center;
 
   @media only screen and (max-width: 478px) {
     font-size: 14px;
   }
 `
 
-export const SponsorText = styled.span`
+export const SponsorText = styled.a`
   margin: 2em 0 2em 0;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 800;
   color: black;
   text-decoration: underline;
+  text-align: center;
 
   @media only screen and (max-width: 478px) {
     font-size: 14px;
