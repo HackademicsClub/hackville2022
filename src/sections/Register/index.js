@@ -63,7 +63,7 @@ const Register = () => {
           <RegisterWindowLayout>
             <RegisterIcon src={RegisterImage}/>
             <ButtonGroup>
-              <ApplyButton text="Apply As Hacker" preRegister="true" to="https://forms.gle/cfgNBZqjzigKoEgp7"/>
+              <ApplyButton text="Apply As Hacker" preRegister="true" to="https://hackville.io/apply"/>
               <ApplyButton text="Apply As Mentor"/>
             </ButtonGroup>
           </RegisterWindowLayout>
