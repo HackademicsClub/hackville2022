@@ -55,7 +55,7 @@ const FAQIcon = styled.img`
 const FAQ = () => (
   <Section id='faq' bgColor='#EEEEEE'>
     <Container>
-      <Window title='Frequently Asked Questions' shortTitle='FAQ' maxWidth='1200px' minWidth='360px' mobileWidth='360px' mediumViewWidth="380px">
+      <Window title='Frequently Asked Questions' shortTitle='FAQ' maxWidth='950px' minWidth='360px' mobileWidth='360px' mediumViewWidth="380px">
         <WindowLayout>
           <FAQIcon src={FAQImage}/>
           <FAQWindowContainer>
