@@ -7,6 +7,7 @@ import { WindowLayout } from '../../components/Window/styles';
 
 // Assets
 import FAQImage from '../../images/faq.png';
+import GreyBackground from '../../images/backgrounds/bg-grey.png';
 
 const FAQWindowContainer = styled.div`
   display: flex;
@@ -53,7 +54,7 @@ const FAQIcon = styled.img`
 `
 
 const FAQ = () => (
-  <Section id='faq' bgColor='#EEEEEE'>
+  <Section id='faq' bgColor='#EEEEEE' background={GreyBackground}>
     <Container>
       <Window title='Frequently Asked Questions' shortTitle='FAQ' maxWidth='950px' minWidth='360px' mobileWidth='360px' mediumViewWidth="380px">
         <WindowLayout>

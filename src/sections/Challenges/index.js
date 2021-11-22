@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import ChallengeStatistics from '../../components/ChallengeStatistics';
 import Section from '../../components/Section';
 import Window from '../../components/Window';
+import TealBackground from '../../images/backgrounds/bg-teal.png';
 
 const Container = styled.div`
   display: flex;
@@ -52,7 +53,7 @@ const ChallengesWindowLayout = styled.div`
 `
 
 const Challenge = () => (
-  <Section id='challenges' bgColor='#ADDFD5'>
+  <Section id='challenges' bgColor='#ADDFD5' background={TealBackground}>
     <Container>
       <Window title="">
         <LastYearWindowLayout>

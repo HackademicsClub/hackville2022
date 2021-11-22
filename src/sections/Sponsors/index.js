@@ -5,7 +5,7 @@ import PastSponsorGrid from '../../components/PastSponsorGrid';
 import Section from '../../components/Section';
 import SponsorButton from '../../components/SponsorButton';
 import Window from '../../components/Window';
-import { WindowLayout } from '../../components/Window/styles';
+import PurpleBackground from '../../images/backgrounds/bg-purple.png';
 
 
 const PastSponsorLayout = styled.div`
@@ -13,8 +13,6 @@ const PastSponsorLayout = styled.div`
   flex-direction: row;
   overflow: auto;
   max-width: 800px;
-
-
 
   @media only screen and (max-width: 800px) {
     max-width: 380px;
@@ -50,7 +48,7 @@ const SponsorsWindowLayout = styled.div`
 `
 
 const Sponsors = () => (
-  <Section id='sponsors' bgColor='#B7C5F6'>
+  <Section id='sponsors' bgColor='#B7C5F6' background={PurpleBackground}>
     <Container>
       <Window title='Sponsors' margin="0 2px 0.8em 0">
         <SponsorsWindowLayout>
