@@ -31,17 +31,16 @@ const FAQAnswer = styled.div`
 `
 
 
-const FAQCard = ({collapsed, question, answer}) => {
+const FAQCard = ({collapsed, faq}) => {
   const [isCollapsed, setIsCollapsed] = React.useState(collapsed);
 
   return (
     <>
-      <Card onClick={() => setIsCollapsed(!isCollapsed)}>
-        <FAQQuestion>
-          ➕ { question }
+      <Card>
+        <FAQQuestion onClick={() => setIsCollapsed(!isCollapsed)}>
+          ➕ { faq.frontmatter.title }
         </FAQQuestion>
-        <FAQAnswer collapsed={isCollapsed} aria-expanded={isCollapsed}>
-          { answer }
+        <FAQAnswer collapsed={isCollapsed} aria-expanded={isCollapsed} dangerouslySetInnerHTML={{ __html: faq.html}}>
         </FAQAnswer>
       </Card>
     </>
