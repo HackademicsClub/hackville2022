@@ -49,8 +49,8 @@ const Footer = () => (
     <HelpfulLinks>
       <Link href="mailto:sheridanhackville@gmail.com">Contact Us</Link>
       <Link href="https://www.hackademics.club" target='_blank'>Hackademics</Link>
-      <Link>Sponsorship Package</Link>
-      <Link>Code of Conduct</Link>
+      <Link href="https://hackville.io/Hackville_2022_Sponsorship_Package.pdf">Sponsorship Package</Link>
+      <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</Link>
     </HelpfulLinks>
     <Socials>
       <a href='https://www.facebook.com/groups/hackademicsclub' target='_blank'>
