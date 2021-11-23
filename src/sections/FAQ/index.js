@@ -78,7 +78,7 @@ const FAQ = () => {
       <Container>
         <Window title='Frequently Asked Questions' shortTitle='FAQ' maxWidth='950px' minWidth='360px' mobileWidth='360px' mediumViewWidth="380px">
           <WindowLayout>
-            <FAQIcon src={FAQImage}/>
+            <FAQIcon src={FAQImage} alt="Frequently Asked Questions Picture"/>
             <FAQWindowContainer>
               {FAQs}
             </FAQWindowContainer>

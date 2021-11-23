@@ -28,8 +28,9 @@ const GlobalStyle = createGlobalStyle`
 const IndexPage = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'en' }}>
         <title>Hackville 2022</title>
+        <meta name="description" content="Hackville is Sheridan College's flagship hackathon, hosted by students and for students.  Happening on January 14th–16th, 2022!"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/>        
@@ -42,7 +43,6 @@ const IndexPage = () => {
       <Sponsors/>
       <FAQ/>
       <Footer/>
-
     </>
 
   )
