@@ -54,7 +54,7 @@ const FAQIcon = styled.img`
   }
 `
 
-const FAQ = ({}) => {
+const FAQ = () => {
   const data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___title] }) {

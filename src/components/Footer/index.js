@@ -48,18 +48,18 @@ const Footer = () => (
   <StyledFooter>
     <HelpfulLinks>
       <Link href="mailto:sheridanhackville@gmail.com">Contact Us</Link>
-      <Link href="https://www.hackademics.club" target='_blank'>Hackademics</Link>
+      <Link href="https://www.hackademics.club" target='_blank' rel="noopener noreferrer">Hackademics</Link>
       <Link href="https://hackville.io/Hackville_2022_Sponsorship_Package.pdf">Sponsorship Package</Link>
       <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</Link>
     </HelpfulLinks>
     <Socials>
-      <a href='https://www.facebook.com/groups/hackademicsclub' target='_blank'>
+      <a href='https://www.facebook.com/groups/hackademicsclub' target='_blank' rel="noopener noreferrer">
         <SocialIcon src={FacebookSocialImage}/>
       </a>
-      <a href='https://www.instagram.com/hackademicsclub/' target='_blank'>
+      <a href='https://www.instagram.com/hackademicsclub/' target='_blank' rel="noopener noreferrer">
         <SocialIcon src={InstagramSocialImage}/>
       </a>
-      <a href='https://www.linkedin.com/company/hackademics-club/about/' target='_blank'>
+      <a href='https://www.linkedin.com/company/hackademics-club/about/' target='_blank' rel="noopener noreferrer">
         <SocialIcon src={LinkedInSocialImage}/>
       </a>
     </Socials>
