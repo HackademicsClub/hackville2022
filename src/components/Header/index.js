@@ -16,7 +16,6 @@ const HackademicsIcon = styled.img`
   border-radius: 8px;
 `
 
-
 const Navigation = styled.nav`
   background-color: #242424;
   display: flex;
@@ -47,6 +46,24 @@ const NavLinks = styled.ul`
   }
 `
 
+const MLHBadge = styled.a`
+  display:block;
+  max-width:100px;
+  min-width:60px;
+  position:absolute;
+  right:50px;
+  top:0;
+  width:10%;
+  z-index:10000;
+
+  @media only screen and (max-width: 872px) {
+    width: 30%;
+  }
+
+  @media only screen and (max-width: 390px) {
+    right: 25px;
+  }
+`
 
 const Header = () => {
   return(
@@ -61,6 +78,9 @@ const Header = () => {
         <Link to='sponsors'k>Sponsors</Link>
         <Link to='faq'>FAQ</Link>
       </NavLinks>
+      <MLHBadge target="_blank">
+          <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" alt="Major League Hacking 2022 Hackathon Season" />
+      </MLHBadge>
     </Navigation>
   )
 }
