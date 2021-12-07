@@ -14,9 +14,7 @@ const Button = ({className, to, text, preRegister}) => (
     <ButtonText>
       { text }
       <br/>
-      {preRegister && 
-        <span>APPLY NOW</span>
-      }
+      <span>APPLY NOW</span>
     </ButtonText>
   </button>
 )
