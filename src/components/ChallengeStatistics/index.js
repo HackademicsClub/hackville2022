@@ -48,7 +48,7 @@ const ChallengeStatistics = () => (
     </IconContainer>
     <IconContainer>
       <StaticImage src='../../images/prize.svg' alt=""/>
-      <StatisticText>$4k prizes</StatisticText>
+      <StatisticText>$10k prizes</StatisticText>
     </IconContainer>
   </IconsContainer>
 )
