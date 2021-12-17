@@ -15,6 +15,10 @@ const Sponsor = styled.a`
   height: 220px;
   min-height: 100px;
   display: flex;
+
+  &:hover {
+    background-color: #D1D3E1;
+  }
 `
 
 const Layout = styled.div`
@@ -28,8 +32,8 @@ const Layout = styled.div`
 
 const SponsorGrid = () => (
   <Layout>
-    <Sponsor>
-      <StaticImage src='../../images/past-sponsors/SSU.jpeg' alt='Sheridan Student Union Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+    <Sponsor href="https://www.thessu.ca/">
+      <StaticImage src='../../images/current-sponsors/ssu.png' alt='Sheridan Student Union Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     <Sponsor>
       <StaticImage src='../../images/past-sponsors/mlh.png' alt='Major League Hacking Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
