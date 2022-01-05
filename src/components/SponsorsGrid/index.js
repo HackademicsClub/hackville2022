@@ -35,7 +35,7 @@ const SponsorGrid = () => (
     <Sponsor href="https://www.thessu.ca/">
       <StaticImage src='../../images/current-sponsors/ssu.png' alt='Sheridan Student Union Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
-    <Sponsor>
+    <Sponsor href='https://mlh.io/'>
       <StaticImage src='../../images/past-sponsors/mlh.png' alt='Major League Hacking Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     <Sponsor href="http://hackp.ac/mlh-stickermule-hackathons">
@@ -44,16 +44,16 @@ const SponsorGrid = () => (
     <Sponsor>
       <StaticImage src='../../images/current-sponsors/sheridan-alumni-office.png' alt="Sheridan College's Alumni Office Sponsor Logo for Hackville 2022" width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
-    <Sponsor>
+    <Sponsor href='https://www.echo3d.co/'>
       <StaticImage src='../../images/current-sponsors/echo3d.png' alt='Echo3D Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     <Sponsor href="https://linktr.ee/leadinglearners">
       <StaticImage src='../../images/current-sponsors/Leading_Learners_Logo.png' alt='Leading Learners Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
-    <Sponsor>
+    <Sponsor href='https://www.adobe.com/ca/products/xd.html'>
       <StaticImage src='../../images/past-sponsors/adobe--logo.png' alt='Adobe XD Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
-    <Sponsor>
+    <Sponsor href='https://alan.app/'>
       <StaticImage src='../../images/current-sponsors/alan-logo-vertical-color.png' alt='Alan Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     {/* <Sponsor>
