@@ -42,13 +42,19 @@ const SponsorGrid = () => (
       <StaticImage src='../../images/current-sponsors/sticker-mule-logo-dark-stacked.png' alt='Sticker Mule Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     <Sponsor>
-      <StaticImage src='../../images/current-sponsors/alumnioffice-logo.png' alt="Sheridan College's Alumni Office Sponsor Logo for Hackville 2022" width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+      <StaticImage src='../../images/current-sponsors/sheridan-alumni-office.png' alt="Sheridan College's Alumni Office Sponsor Logo for Hackville 2022" width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     <Sponsor>
       <StaticImage src='../../images/current-sponsors/echo3d.png' alt='Echo3D Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     <Sponsor href="https://linktr.ee/leadinglearners">
       <StaticImage src='../../images/current-sponsors/Leading_Learners_Logo.png' alt='Leading Learners Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+    </Sponsor>
+    <Sponsor>
+      <StaticImage src='../../images/past-sponsors/adobe--logo.png' alt='Adobe XD Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+    </Sponsor>
+    <Sponsor>
+      <StaticImage src='../../images/current-sponsors/alan-logo-vertical-color.png' alt='Alan Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
     {/* <Sponsor>
       <StaticImage src='../../images/past-sponsors/github-logo.png' alt='' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
