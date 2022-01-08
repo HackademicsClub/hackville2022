@@ -53,6 +53,9 @@ const SponsorGrid = () => (
     <Sponsor href='https://www.adobe.com/ca/products/xd.html'>
       <StaticImage src='../../images/past-sponsors/adobe--logo.png' alt='Adobe XD Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
+    <Sponsor href='https://www.courier.com/'>
+      <StaticImage src='../../images/current-sponsors/courier-logo.png' alt='Courier Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+    </Sponsor>
     <Sponsor href='https://alan.app/'>
       <StaticImage src='../../images/current-sponsors/alan-logo-vertical-color.png' alt='Alan Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
