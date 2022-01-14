@@ -41,6 +41,12 @@ const SponsorGrid = () => (
     <Sponsor href="http://hackp.ac/mlh-stickermule-hackathons">
       <StaticImage src='../../images/current-sponsors/sticker-mule-logo-dark-stacked.png' alt='Sticker Mule Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
+    <Sponsor href='https://www.speer.io/'>
+      <StaticImage src='../../images/current-sponsors/speer.png' alt='Speer Sponsor Logo for Hackville 2022' width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+    </Sponsor>
+    <Sponsor href='https://www.assemblyai.com/'>
+      <StaticImage src='../../images/current-sponsors/AssemblyAI_logo.png' alt="Assembly AI Sponsor Logo for Hackville 2022" width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
+    </Sponsor>
     <Sponsor>
       <StaticImage src='../../images/current-sponsors/sheridan-alumni-office.png' alt="Sheridan College's Alumni Office Sponsor Logo for Hackville 2022" width={200} height={200} layout='constrained' transformOptions={{fit: 'inside'}}/>
     </Sponsor>
